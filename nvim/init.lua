@@ -1,7 +1,6 @@
 -- Enable fast loader
 vim.loader.enable()
 
-local theme = require("onedark")
 
 require("paq")(
     {
@@ -36,6 +35,9 @@ require("paq")(
         "folke/which-key.nvim"
     }
 )
+
+
+local theme = require("onedark")
 
 -- Use system clipboard
 vim.o.clipboard = "unnamed"
