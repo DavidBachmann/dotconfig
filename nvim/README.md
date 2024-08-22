@@ -1,13 +1,9 @@
-## Install Paq
--- https://github.com/savq/paq-nvim
-```
-git clone --depth=1 https://github.com/savq/paq-nvim.git \
-    "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/pack/paqs/start/paq-nvim
-```
+**This repo is supposed to used as config by NvChad users!**
 
-```
-:PaqInstall
-```
+- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
+- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
+- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
 
-## Global deps
-typescript-language-server typescript prettier @fsouza/prettierd eslint_d stylelint-lsp vscode-langservers-extracted
+# Credits
+
+1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
